@@ -24,6 +24,15 @@
             background-color: aquamarine;
             padding: 50px;
         }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 2px solid black;
+            padding: 10px;
+        }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -93,7 +102,7 @@
         <div>
             <h3>This is External CSS!</h3>
             <p id="external_Id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum rerum perferendis? Nobis enim optio accusantium pariatur itaque porro tempore quibusdam quidem rerum! Molestias recusandae omnis, perferendis eveniet laborum nesciunt.</p>
-
+ 
             <p class="external_Class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique beatae, sed possimus facere molestiae, qui rem quos inventore alias laudantium illum quam nisi! Asperiores, magni accusantium. Officiis aliquam in accusantium.</p>
 
             <p class="external_Class">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iusto cum laborum ratione doloremque perferendis quia pariatur dolorem eveniet error accusantium eos tenetur debitis quam, corrupti placeat odio tempora! Mollitia non consequatur ad quidem doloribus accusamus iusto dicta, eligendi odit ipsam voluptatum velit expedita quae porro excepturi, tempore ullam praesentium.</p>
@@ -117,6 +126,42 @@
             <h2>Blog 3</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, tenetur dolore? Nostrum repellendus ipsam necessitatibus illo voluptatem. Ipsam quisquam soluta optio, voluptatum quae minima dolorum, ea quibusdam deleniti odio ab?</p>
         </div>
+    </section>
+
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Md Rabby</td>
+                    <td>BdCalling It Ltd.</td>
+                    <td>$300</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jubayer Khan</td>
+                    <td>SM Techno</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Morshed</td>
+                    <td>BBS</td>
+                    <td>$900</td>
+                </tr>
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
     </section>
 
 </body>
